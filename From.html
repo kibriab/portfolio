@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+      <div>
+         <label for="name">Name</label>
+          <input type="text" name="name" id="name" required />
+      </div>
+         <div>
+           <label for="email">Email</label>
+               <input type="email" name="email" id="email" required />
+             </div>
+      
+      <div>
+        <label for="date">Date of Birth</label>
+        <input type="date" name="date" id="date">
+      </div>  
+
+      <div>
+        <label for="age">Age</label>
+          <input type="number" name="age" id="age" min="1" max="200" step="5" />
+        </div>
+
+  <div>
+        <label>
+          
+          <div>
+                Favorite Food
+           <div>
+               <label for="banana">Banana</label>
+                <input type="checkbox" name="banana" id="banana">
+                </div>
+          <div>
+             <label for="jackfurit">jackfurit</label>
+              <input type="checkbox" name="jackfurit" id="jackfurit">
+              </div>
+                </div>
+       <div>
+               Gender :
+            <div>
+              <label for="male" >Male</label> <input type="radio" name="gender" id="male">
+          </div>
+
+          <div>
+            <label for="male" >Female</label> <input type="radio" name="gender" id="Female">
+        </div>
+
+
+        <div>
+          <label for="other" >other</label> <input type="radio" name="gender" id="other">
+      </div>
+          </div>
+             <div>   
+              <label>
+              <div>
+        <label for="bio">Bio</label><br>
+        <textarea id="bio" name="bio"></textarea>
+        </div>
+        <input type="hidden" name="hidden" value="hi">
+        <div>
+        <label for="file">File</label>
+        <input id="file" type="file" name="file">
+        
+        </div>
+        <div>
+        <label>
+        Password
+        <input type="password" name="password" required>
+        </label>
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+  
+
+</label>
+</div>
+        </label>
+      </div>
+    </form>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+

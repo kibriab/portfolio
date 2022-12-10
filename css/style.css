@@ -1,0 +1,37 @@
+.bbimage{
+  background: url('/image/scenary1.jpeg');
+  background-size: cover;
+  height: 1000px;
+  width: 1800px;
+}
+.kkk{
+    background-color: aqua;
+    color: black;
+}
+.ssss{
+    padding: 50px;
+    text-align: center;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90px;
+}
+.kibria{
+  color: black;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:;
+}
+body{
+  background-color: cyan;
+}
+
+.kibria{
+  background-color:red
+  color: black;
+}
+.Action{
+  background-color: seagreen;
+  font-size: 0%;
+  font-style: initial;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
